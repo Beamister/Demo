@@ -3,3 +3,11 @@ venv
 
 # Ignore data files
 *.json
+
+# Ignore IDE files
+.idea/.gitignore
+.idea/Demo.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
