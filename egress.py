@@ -1,6 +1,6 @@
 from google.cloud import pubsub_v1
 
-input_subscription_name = 'projects/Demo/subscriptions/subscription.one'
+input_subscription_name = 'projects/watchful-net-273116/subscriptions/subscription.one'
 
 subscriber = pubsub_v1.SubscriberClient()
 publisher = pubsub_v1.PublisherClient()

@@ -1,6 +1,10 @@
 from google.cloud import pubsub_v1
+import google.auth
 
-topic_name = 'projects/Demo/topics/topic.one'
+credentials, project_id = google.auth.default()
+
+
+topic_name = 'projects/watchful-net-273116/topics/topic.one'
 
 data = [b'demo one',
         b'demo two',
